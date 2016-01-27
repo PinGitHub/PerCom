@@ -1,0 +1,53 @@
+\begin{thebibliography}{10}
+
+\bibitem{shamir1985identity}
+A.~Shamir, ``Identity-based cryptosystems and signature schemes,'' Advances in
+  cryptology, pp.47--53, Springer, 1985.
+
+\bibitem{choon2002identity}
+J.C. Choon and J.H. Cheon, ``An identity-based signature from gap
+  diffie-hellman groups,'' in Public key cryptography -- PKC 2003, pp.18--30,
+  Springer, 2002.
+
+\bibitem{gentry2002hierarchical}
+C.~Gentry and A.~Silverberg, ``Hierarchical id-based cryptography,'' in
+  Advances in cryptology -- ASIACRYPT 2002, pp.548--566, Springer, 2002.
+
+\bibitem{anescrowfree2015chen}
+P.~Chen, X.~Wang, and J.~Su, ``An escrow-free hierarchical identity-based
+  signature model for cloud storage,'' Algorithms and Architectures for
+  Parallel Processing - {ICA3PP} International Workshops and Symposiums,
+  Zhangjiajie, China, November 18-20, 2015, Proceedings, pp.633--647, 2015.
+
+\bibitem{chow2004secure}
+S.S. Chow, L.C. Hui, S.M. Yiu, and K.~Chow, ``Secure hierarchical identity
+  based signature and its application,'' in Information and Communications
+  Security, pp.480--494, Springer, 2004.
+
+\bibitem{even1990line}
+S.~Even, O.~Goldreich, and S.~Micali, ``On-line/off-line digital signatures,''
+  Advances in Cryptology -- CRYPTO’89 Proceedings, pp.263--275, Springer,
+  1990.
+
+\bibitem{ming2010improved}
+Y.~Ming and Y.~Wang, ``Improved identity based online/offline signature
+  scheme,'' Ubiquitous Intelligence \& Computing and 7th International
+  Conference on Autonomic \& Trusted Computing (UIC/ATC), 2010 7th
+  International Conference on, pp.126--131, IEEE, 2010.
+
+\bibitem{chen2015ahiboos}
+P.~Chen, X.~Wang, and J.~Su, ``An online/offline hibs scheme for privacy
+  protection of people-centric sensing,'' Industrial Informatics - Computing
+  Technology, Intelligent Technology, Industrial Information Integration
+  (ICIICII), 2015 International Conference on, pp.128--131, Dec\ 2015.
+
+\bibitem{chen2015efhiboos}
+P.~Chen, X.~Wang, and J.~Su, ``An escrow-free online/offline hibs scheme for
+  privacy protection of people-centric sensing [submit],'' Security and
+  Communication Networks, 2015.
+
+\bibitem{pbclib}
+B.~Lynn, H.~Shacham, M.~Steiner, and J.~Cooley, ``The pairing-based
+  cryptography library.'' https://crypto.stanford.edu/pbc/.
+
+\end{thebibliography}
