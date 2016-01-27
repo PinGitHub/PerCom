@@ -58,11 +58,10 @@
 \maketitle
 \begin{summary}
 Key escrow problem and high computational cost are the two major problems that hinder the widely adoption of hierarchical identity-based signature (HIBS) scheme.
-HIBS schemes with either escrow-free (\emph{EF}) or online/offline (\emph{OO}) model are proposed and proved secure.
-However, there is scarcely any \emph{EF} scheme or \emph{OO} scheme has been evaluated experimentally.
+HIBS schemes with either escrow-free (\emph{EF}) or online/offline (\emph{OO}) model are proposed and proved secure by Chen et al.
+However, they only focus on  the formal proof of security and have not yet evaluated their schemes either theoretically or experimentally.
 In this letter, several EF/OO HIBS schemes are considered. 
-We study the algorithmic complexity of the schemes both theoretically and experimentally.
-Scheme performance and practicability of \emph{EF} and \emph{OO} models are discussed.
+We study the algorithmic complexity of the schemes, and discuss the scheme performance and practicability of \emph{EF} and \emph{OO} models.
 \end{summary}
 \begin{keywords}
 identity-based signature, computational complexity, paring based cryptography
@@ -321,7 +320,7 @@ We ran the programs at a Desktop, which equipped Intel(R) Core Duo CPU i5-3550 a
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=7cm]{on_sign.eps}
+\includegraphics[width=6.6cm]{on_sign.eps}
 \caption{Computational cost of online signing. Curve ``OO'' and curve ``EFOO'' are almost overlapped.} \label{fig-on-sign}
 \end{figure}
 
@@ -334,14 +333,14 @@ Thus, we find that applying the \emph{OO} model is an effective way to improve t
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=7cm]{verify.eps}
+\includegraphics[width=6.7cm]{verify.eps}
 \caption{Computational cost of verification. Curve ``EF'' and curve ``EFOO'' are almost overlapped, and so as the curve ``SHER'' and curve ``OO''.} \label{fig-verify}
 \end{figure}
 
 Figure \ref{fig-verify} shows the computational cost of verification of the HIBS schemes.
 From the figure, we can observe that the cost of verification also grows linearly as the length of identity in each scheme, and the OO model does not improve the verification efficiency.
 Comparing to online signing, the verification computational cost is still quite too high, and applying the EF model will even bring in about 20 ms to the cost. 
-Therefore, we assume that the verification algorithms need to be further improved.
+Therefore, we suggest that the verification algorithms need to be further improved.
 
 \section{Conclusions}
 In this work, we reviewed four HIBS schemes including a primitive scheme, an online/offline extension, an escrow-free extension and a comprehensive scheme.
